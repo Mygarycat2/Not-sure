@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(purple, blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+input {
+    text-align: center;
+    border: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    height: 6vh;
+    width: 50vh;
+    font-style: italic;
+}
+
+button {
+    text-align: center;
+    border: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    height: 6vh;
+    width: 40vh;
+    cursor: pointer;
+}
+
+
+
+button:hover {
+    background-color: hsl(0, 0%, 80%);
+}
+
+
+
+button:active {
+    background-color: hsl(0, 0%, 70%);
+}
